@@ -39,12 +39,12 @@
     "type": "item_group",
     "id": "guns_rifle_common_223",
     "copy-from": "guns_rifle_common_223",
-    "extend": { "items": [ { "item": "fn2000", "prob": 1 },{ "item": "mas223", "prob": 1 } ] }
+    "extend": { "items": [ { "item": "fn2000", "prob": 1 }, { "item": "mas223", "prob": 1 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_common_display_223",
     "copy-from": "guns_rifle_common_display_223",
-    "extend": { "items": [ { "item": "fn2000", "prob": 5 },{ "item": "mas223", "prob": 5 } ] }
+    "extend": { "items": [ { "item": "fn2000", "prob": 5 }, { "item": "mas223", "prob": 5 } ] }
   }
 ]
