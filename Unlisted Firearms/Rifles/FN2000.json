@@ -9,6 +9,7 @@
     "weight": "3600 g",
     "volume": "7986 ml",
     "longest_side": "740 mm",
+    "barrel_length": "443 mm",
     "price": 125000,
     "price_postapoc": 2000,
     "to_hit": -1,
@@ -16,7 +17,6 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "stab", "amount": -2 },
     "dispersion": 150,
     "durability": 9,
     "min_cycle_recoil": 1350,
@@ -41,10 +41,24 @@
           "stanag10ranger",
           "stanag20",
           "stanag20ranger",
-          "stanag30ranger"
+          "stanag30ranger",
+          "stanag40",
+          "stanag40ranger",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "stanag20_beowulf",
+          "stanag20ranger_beowulf",
+          "stanag30_beowulf",
+          "stanag30ranger_beowulf",
+          "survivor223mag"
         ]
       }
     ],
-	"melee_damage": { "bash": 12 }
+    "melee_damage": { "bash": 12 }
   }
 ]
