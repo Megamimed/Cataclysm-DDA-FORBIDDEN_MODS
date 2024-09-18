@@ -1,0 +1,50 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_pistol_hunting_display",
+    "copy-from": "guns_pistol_hunting_display",
+    "extend": { "items": [ { "item": "AutomagIII", "prob": 8 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "mags_common",
+    "copy-from": "mags_common",
+    "extend": { "items": [ { "item": "automag_mag", "prob": 5 }, { "item": "hh9mag", "prob": 8 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "mags_pistol_hunting",
+    "copy-from": "mags_pistol_hunting",
+    "extend": { "items": [ { "item": "automag_mag", "prob": 10 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common",
+    "copy-from": "guns_pistol_common",
+    "extend": { "items": [ { "item": "AutomagIII", "prob": 1 }, { "item": "hh9", "prob": 2 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display",
+    "copy-from": "guns_pistol_common_display",
+    "extend": { "items": [ { "item": "AutomagIII", "prob": 2 }, { "item": "hh9", "prob": 2 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_22",
+    "copy-from": "guns_pistol_common_22",
+    "extend": { "items": [ { "item": "zip22", "prob": 20 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_223",
+    "copy-from": "guns_rifle_common_223",
+    "extend": { "items": [ { "item": "fn2000", "prob": 1 }, { "item": "mas223", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display_223",
+    "copy-from": "guns_rifle_common_display_223",
+    "extend": { "items": [ { "item": "fn2000", "prob": 5 }, { "item": "mas223", "prob": 5 } ] }
+  }
+]
