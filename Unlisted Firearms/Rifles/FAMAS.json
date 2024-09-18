@@ -9,6 +9,7 @@
     "weight": "3610 g",
     "volume": "3429 ml",
     "longest_side": "759 mm",
+    "barrel_length": "483 mm",
     "price": "2800000 USD",
     "price_postapoc": "2500 USD",
     "to_hit": -1,
@@ -16,7 +17,6 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "dispersion": 180,
     "durability": 8,
     "min_cycle_recoil": 1350,
@@ -46,10 +46,25 @@
           "stanag10ranger",
           "stanag20",
           "stanag20ranger",
-          "stanag30ranger"
+          "stanag30ranger",
+          "stanag40",
+          "stanag40ranger",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "stanag20_beowulf",
+          "stanag20ranger_beowulf",
+          "stanag30_beowulf",
+          "stanag30ranger_beowulf",
+          "survivor223mag"
         ]
       }
     ],
-	"melee_damage": { "bash": 12 }
+    "//": "The IRL gun doesn't take regular STANAGs, but adding in separate magazines would make it way more of a hassle to get it working",
+    "melee_damage": { "bash": 12 }
   }
 ]

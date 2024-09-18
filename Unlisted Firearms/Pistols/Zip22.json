@@ -12,7 +12,6 @@
     "barrel_length": "133 mm",
     "price": "199 USD",
     "price_postapoc": "1 USD",
-    "variant_type": "gun",
     "material": [ "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
@@ -20,13 +19,22 @@
     "range": 1,
     "dispersion": 600,
     "durability": 3,
-    "min_cycle_recoil": 380,
-    "flags": [ "ALLOWS_BODY_BLOCK" ],
+    "min_cycle_recoil": 40,
+    "flags": [ "ALLOWS_BODY_BLOCK", "FRAGILE_MELEE" ],
     "pocket_data": [
       {
-        "magazine_well": "250 ml",
+        "magazine_well": "34 ml",
         "pocket_type": "MAGAZINE_WELL",
-        "item_restriction": [ "ruger1022mag" ]
+        "item_restriction": [
+          "ruger1022mag",
+          "ruger1022mag_15",
+          "ruger1022bigmag",
+          "ruger1022mag_30",
+          "ruger1022mag_32",
+          "ruger1022mag_55",
+          "ruger1022mag_70",
+          "ruger1022mag_110"
+        ]
       }
     ],
     "melee_damage": { "bash": 8 }
