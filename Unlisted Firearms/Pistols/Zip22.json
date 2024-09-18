@@ -4,7 +4,7 @@
     "copy-from": "pistol_base",
     "looks_like": "box",
     "type": "GUN",
-    "name": { "str": "Zip .22" },
+    "name": { "str": "ZiP .22" },
     "description": "A weird little box that is extremely difficult to shoot, uncomfortable and generally useless.",
     "weight": "430 g",
     "volume": "300 ml",
@@ -19,7 +19,16 @@
     "range": 1,
     "dispersion": 600,
     "durability": 3,
-    "min_cycle_recoil": 40,
+    "min_cycle_recoil": 999,
+    "//": "It's meant to fail on every shot",
+    "faults": [
+      "fault_gun_blackpowder",
+      "fault_gun_dirt",
+      "fault_gun_chamber_spent",
+      "fault_fail_to_feed",
+      "fault_stovepipe",
+      "fault_double_feed"
+    ],
     "flags": [ "ALLOWS_BODY_BLOCK", "FRAGILE_MELEE" ],
     "pocket_data": [
       {
