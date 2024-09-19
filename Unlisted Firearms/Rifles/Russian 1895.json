@@ -1,0 +1,48 @@
+[
+  {
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "handling": 20,
+    "name": { "str": "Russian contract 1895" },
+    "symbol": "(",
+    "color": "brown",
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "copy-from": "rifle_manual",
+    "skill": "rifle",
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "bayonet lug", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip mount", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "stock accessory", 2 ],
+      [ "underbarrel", 1 ]
+    ],
+    "id": "russian_1895",
+    "looks_like": "modular_ar15",
+    "description": "The Winchester 1895 was a revolutionary lever action rifle by none other than John Browning.  It was able to fire spitzer bullets unlike most lever actions due to its box magazine.  After rejection from the US Army, a contract to make them in 7.62x54mmR was in order.  While Russia soon after became the UUSR (Not because of the firearm), a few did make their way into Russian inventory.  This is likely not one of those.  Feeds from mosin stripper clips.",
+    "weight": "4200 g",
+    "volume": "3220 ml",
+    "longest_side": "1175 mm",
+    "barrel_length": "710 mm",
+    "price": "6000 USD",
+    "price_postapoc": "15 USD",
+    "to_hit": -1,
+    "material": [ "steel", "wood" ],
+    "ammo": [ "762R" ],
+    "dispersion": 70,
+    "durability": 10,
+    "blackpowder_tolerance": 48,
+    "clip_size": 5,
+    "flags": [ "RELOAD_ONE", "NO_TURRET", "EASY_CLEAN" ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 5 }, "allowed_speedloaders": [ "762R_clip" ] }
+    ],
+    "melee_damage": { "bash": 12 }
+  }
+]

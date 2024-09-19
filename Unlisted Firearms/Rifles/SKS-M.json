@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sksm",
+    "copy-from": "rifle_semi",
+    "looks_like": "modular_ar15",
+    "type": "GUN",
+    "name": { "str": "SKS-M" },
+    "description": "An odd hybrid between an SKS and an AKM, this Chinese rifle is an SKS that's been outfitted with the ability to feed from AKM magazines.  The best of both worlds!",
+    "variant_type": "gun",
+    "ascii_picture": "sks",
+    "weight": "3850 g",
+    "volume": "2838 ml",
+    "longest_side": "103 cm",
+    "barrel_length": "520 mm",
+    "price": "380 USD",
+    "price_postapoc": "35 USD",
+    "to_hit": -1,
+    "material": [ "steel", "wood" ],
+    "color": "brown",
+    "ammo": [ "762" ],
+    "dispersion": 90,
+    "durability": 8,
+    "min_cycle_recoil": 1832,
+    "barrel_volume": "500 ml",
+    "built_in_mods": [ "inter_bayonet" ],
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "stock accessory", 2 ],
+      [ "underbarrel", 1 ]
+    ],
+    "weapon_category": [ "AUTOMATIC_RIFLES" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] } ],
+    "melee_damage": { "bash": 12 }
+  }
+]
