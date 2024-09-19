@@ -46,5 +46,47 @@
     "id": "guns_rifle_common_display_223",
     "copy-from": "guns_rifle_common_display_223",
     "extend": { "items": [ { "item": "fn2000", "prob": 5 }, { "item": "mas223", "prob": 5 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_762R",
+    "copy-from": "guns_rifle_common_762R",
+    "extend": { "items": [ { "item": "russian_1895", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_worn_762R",
+    "copy-from": "guns_rifle_common_worn_762R",
+    "extend": { "items": [ { "item": "russian_1895", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare_762R",
+    "copy-from": "guns_rifle_rare_762R",
+    "extend": { "items": [ { "item": "russian_1895", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare_display_762R",
+    "copy-from": "guns_rifle_rare_display_762R",
+    "extend": { "items": [ { "item": "russian_1895", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_762",
+    "copy-from": "guns_rifle_common_762",
+    "extend": { "items": [ { "item": "sksm", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_worn_762",
+    "copy-from": "guns_rifle_common_worn_762",
+    "extend": { "items": [ { "item": "sksm", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display_762",
+    "copy-from": "guns_rifle_common_display_762",
+    "extend": { "items": [ { "item": "sksm", "prob": 4 } ] }
   }
 ]
