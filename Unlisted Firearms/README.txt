@@ -8,6 +8,8 @@ As of right now this mod includes the following
 - HH9 pistol - Don't care if they went bankrupt, Looks cool af. Would like it to have a chance of being outright broken though since a lot of them shipped busted.
 - zip .22 - Mostly because it's funny bad. Would like to make it shoot you in the hand occasionally.
 - Automag III - Added by Holli-Git
+- SKS M - Added by Holli-Git
+- Russian 1895 Winchester - Added by Holli-Git
 
 I want to include:
 - LA85 - Gimme that dogshit bullpup
