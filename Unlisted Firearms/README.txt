@@ -12,6 +12,7 @@ As of right now this mod includes the following
 I want to include:
 - LA85 - Gimme that dogshit bullpup
 - L1A1 - and any other FAL variant I guess?
+- Dardick and all the trounds https://en.wikipedia.org/wiki/Dardick_tround
 
 
 Not sure if it's already in? include if not:
