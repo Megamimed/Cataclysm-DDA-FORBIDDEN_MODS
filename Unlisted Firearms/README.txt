@@ -3,6 +3,7 @@ So I really don't care if a gun would reasonably found in new England or not I j
 
 As of right now this mod includes the following
 
+Guns:
 - FAMAS* (Currently uses Stanag magazines rather than a proprietary one) 
 - FN2000*
 - HH9 pistol - Don't care if they went bankrupt, Looks cool af. Would like it to have a chance of being outright broken though since a lot of them shipped busted.
@@ -10,6 +11,10 @@ As of right now this mod includes the following
 - Automag III - Added by Holli-Git
 - SKS M - Added by Holli-Git
 - Russian 1895 Winchester - Added by Holli-Git
+
+Professions:
+- Armed and Dangerous - Essentailly the default survivor setting but with a ZiP and two loaded magazines (a 10rnd and 32rnd)
+
 
 I want to include:
 - LA85 - Gimme that dogshit bullpup
