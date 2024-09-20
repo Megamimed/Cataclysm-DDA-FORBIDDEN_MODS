@@ -23,7 +23,7 @@
       [ "underbarrel mount", 1 ]
     ],
     "id": "AutomagIII",
-    "looks_like": "glock_17",
+    "looks_like": "AutomagIII",
     "description": "A semi-automatic pistol chambered in .30 Carbine.  While not the pinnacle of practicality, it sure is useful in some situations where a rifle is overkill, but a regular pistol is underkill.",
     "ascii_picture": "m1911",
     "weight": "1200 g",
