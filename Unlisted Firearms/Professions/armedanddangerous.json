@@ -1,0 +1,39 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "ZiP22kit",
+    "entries": [
+      { "item": "ruger1022mag_32", "ammo-item": "22_lr", "charges": 32 },
+      { "item": "ruger1022mag", "ammo-item": "22_lr", "charges": 15 },
+	  { "item": "zip22"}
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "armed_zip",
+    "name": "Armed and Dangerous",
+    "description": "You had a feeling things would get bad and prepared accordingly, buying yourself what promised to be the future of self defence weapons. Sadly you never got around to taking your new ZiP.22 out to the firing range.",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "jeans" },
+          { "item": "longshirt" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "item": "mbag" },
+          { "item": "pockknife" },
+          { "item": "water_clean" },
+          { "item": "wristwatch" },
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "group": "charged_matches" },
+		  { "group": "ZiP22kit" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  }
+]
