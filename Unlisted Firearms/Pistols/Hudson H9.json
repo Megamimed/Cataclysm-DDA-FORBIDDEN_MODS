@@ -2,7 +2,7 @@
   {
     "id": "hh9",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "hh9",
     "type": "GUN",
     "name": { "str": "Hudson H9" },
     "description": "A futuristic looking 9mm semi-automatic pistol, hopefully this one isn't broken",

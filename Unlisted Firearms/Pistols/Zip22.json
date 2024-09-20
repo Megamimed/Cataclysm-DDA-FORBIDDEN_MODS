@@ -2,7 +2,7 @@
   {
     "id": "zip22",
     "copy-from": "pistol_base",
-    "looks_like": "box",
+    "looks_like": "zip22",
     "type": "GUN",
     "name": { "str": "ZiP .22" },
     "description": "A weird little box that is extremely difficult to shoot, uncomfortable and generally useless.",
