@@ -1,0 +1,10 @@
+[
+  {
+	"id": "cosmetics",
+    "type": "ITEM_CATEGORY",
+    "name_header": { "str": "Cosmetics" },
+    "name_noun": { "ctxt": "item_category", "str": "cosmetic" },
+    "zone": "LOOT_TOOLS",
+    "sort_rank": 1
+  }
+]

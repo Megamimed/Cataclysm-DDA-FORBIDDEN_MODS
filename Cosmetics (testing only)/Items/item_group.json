@@ -1,0 +1,13 @@
+[
+  {
+    "type": "item_group",
+    "id": "cosmetics",
+    "entries": [
+      { "item": "lipstick" },
+      { "item": "eyeshadowpallet" },
+      { "item": "eyelinerpencil" },
+      { "item": "mascara" },
+      { "item": "wpmascara" }
+    ]
+  }
+]

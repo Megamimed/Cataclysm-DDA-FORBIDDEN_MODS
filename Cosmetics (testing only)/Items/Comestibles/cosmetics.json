@@ -1,0 +1,101 @@
+[
+  {
+    "id": "lipstick",
+    "type": "TOOL",
+    "category": "cosmetics",
+    "name": { "str": "lipstick" },
+    "description": "A tube of lipstick, this one is...",
+    "variants": [
+      {
+        "id": "redlipstick",
+        "name": { "str": "red lipstick" },
+        "description": "A tube of lipstick, this one is red",
+        "weight": 2
+        },
+      {
+        "id": "blacklipstick",
+        "name": { "str_sp": "black lipstick" },
+        "description": "A tube of black lipstick, bring out your inner goth.",
+        "weight": 3
+      }
+    ],
+    "weight": "2 g",
+    "volume": "12 ml",
+    "longest_side": "7 cm",
+    "price": "30 USD",
+    "price_postapoc": "3 USD",
+    "to_hit": -1,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "black",
+	"use_action": { "type": "effect_on_conditions", "menu_text": "Apply lipstick", "description": "Apply the lipstick", "effect_on_conditions": [ "apply_lipstick" ], "msg": "You apply the lipstick" }
+  },
+  {
+    "id": "eyeshadowpallet",
+    "type": "TOOL",
+    "category": "cosmetics",
+    "name": { "str": "eyeshadow pallet" },
+    "description": "An eyeshadow pallet with plenty of options.",
+    "weight": "4 g",
+    "volume": "180 ml",
+    "longest_side": "15 cm",
+    "price": "30 USD",
+    "price_postapoc": "3 USD",
+    "to_hit": -1,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "black",
+    "use_action": { "type": "effect_on_conditions", "menu_text": "Apply eyeshadow", "description": "Apply eyeshadow", "effect_on_conditions": [ "apply_eyeshadow" ], "msg": "You apply the eyeshadow" }
+  },
+  {
+    "id": "eyelinerpencil",
+    "type": "TOOL",
+    "category": "cosmetics",
+    "name": { "str": "eyeliner pencil" },
+    "description": "A black eyeliner pencil.",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "longest_side": "13 cm",
+    "price": "30 USD",
+    "price_postapoc": "3 USD",
+    "to_hit": -1,
+    "material": [ "wood" ],
+    "symbol": ";",
+    "color": "black",
+    "use_action": { "type": "effect_on_conditions", "menu_text": "Apply eyeliner", "description": "Apply eyeliner", "effect_on_conditions": [ "apply_eyeliner" ], "msg": "You apply the eyeliner" }
+  },
+  {
+    "id": "mascara",
+    "type": "TOOL",
+    "category": "cosmetics",
+    "name": { "str": "mascara" },
+    "description": "Mascara, this one isn't waterproof.",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "longest_side": "13 cm",
+    "price": "30 USD",
+    "price_postapoc": "3 USD",
+    "to_hit": -1,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "yellow",
+    "use_action": { "type": "effect_on_conditions", "menu_text": "Apply mascara", "description": "Apply mascara", "effect_on_conditions": [ "apply_mascara1" ], "msg": "You apply the mascara" }
+  },
+  {
+    "id": "wpmascara",
+    "type": "TOOL",
+    "category": "cosmetics",
+    "name": { "str": "mascara" },
+    "description": "Mascara, this one is waterproof.",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "longest_side": "13 cm",
+    "price": "30 USD",
+    "price_postapoc": "3 USD",
+    "to_hit": -1,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "yellow",
+    "use_action": { "type": "effect_on_conditions", "menu_text": "Apply mascara", "description": "Apply mascara", "effect_on_conditions": [ "apply_mascara2" ], "msg": "You apply the mascara" }
+  }
+]
