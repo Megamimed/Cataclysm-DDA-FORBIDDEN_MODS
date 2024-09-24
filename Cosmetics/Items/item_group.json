@@ -1,0 +1,134 @@
+[
+  {
+    "type": "item_group",
+    "id": "cosmetics",
+	"subtype": "collection",
+    "entries": [
+      { "item": "lipstick_red", "prob": 25, "charges": [ 25, 100 ] },
+	  { "item": "lipstick_black","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "eyeshadowpallet","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "eyelinerpencil","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "mascara","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "wpmascara","prob": 5, "charges": [ 25, 100 ] },
+	  { "group": "wet_wipes", "prob": 25 },
+      { "item": "facepaint_kit","prob": 5, "charges": [ 25, 100 ] } 
+    ]
+  },
+    {
+    "type": "item_group",
+    "id": "wet_wipes",
+	"subtype": "collection",
+	"container-item": "box_small",
+    "on_overflow": "discard",
+    "entries": [
+    { "item": "makeup_remover_wipe","prob": 100, "count-min": 5, "count-max": 25 }
+	]
+	},
+   {
+    "type": "item_group",
+    "id": "group_cosmetics_bag",
+	"subtype": "collection",
+	"container-item": "cosmetics_bag",
+    "on_overflow": "discard",
+    "entries": [
+      { "item": "lipstick_red", "prob": 60, "charges": [ 25, 100 ] },
+	  { "item": "lipstick_black","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "eyeshadowpallet","prob": 50, "charges": [ 25, 100 ] },
+      { "item": "eyelinerpencil","prob": 60, "charges": [ 25, 100 ] },
+      { "item": "mascara","prob": 50, "charges": [ 25, 100 ] },
+      { "item": "wpmascara","prob": 5, "charges": [ 25, 100 ] },
+      { "item": "facepaint_kit","prob": 5, "charges": [ 25, 100 ] },	  
+      { "group": "wet_wipes", "prob": 25 }
+    ]
+  },
+    {
+    "type" : "item_group",
+    "id": "SUS_junk_drawer_tidy",
+    "copy-from": "SUS_junk_drawer_tidy",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+      { "item": "lipstick_red",  "prob": 25, "charges": [ 25, 100 ] },
+	  { "item": "lipstick_black", "prob": 10, "charges": [ 25, 100 ] },
+      { "item": "eyeshadowpallet", "prob": 10, "charges": [ 25, 100 ] },
+      { "item": "eyelinerpencil", "prob": 10, "charges": [ 25, 100 ] },
+      { "item": "mascara", "prob": 10, "charges": [ 25, 100 ] },
+      { "item": "wpmascara", "prob": 5, "charges": [ 25, 100 ] },
+      { "group": "wet_wipes", "prob": 25 }
+      ]
+    }
+  },
+    {
+    "type" : "item_group",
+    "id": "SUS_bathroom_cabinet",
+    "copy-from": "SUS_bathroom_cabinet",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+	  { "group": "wet_wipes", "prob": 25 }
+      ]
+    }
+  },
+      {
+    "type" : "item_group",
+    "id": "SUS_desks_bedroom_unisex",
+    "copy-from": "SUS_desks_bedroom_unisex",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+      { "group": "group_cosmetics_bag",  "prob": 50 },
+      { "group": "wet_wipes", "prob": 25 }
+      ]
+    }
+  },
+      {
+    "type" : "item_group",
+    "id": "accesories_personal_unisex_child",
+    "copy-from": "accesories_personal_unisex_child",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+      { "item": "facepaint_kit", "prob": 10, "charges": [ 25, 100 ] }
+      ]
+    }
+  },
+      {
+    "type" : "item_group",
+    "id": "SUS_hair_drawer",
+    "copy-from": "SUS_hair_drawer",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+      { "group": "group_cosmetics_bag",  "prob": 50 }
+      ]
+    }
+  },
+    {
+	"type" : "item_group",
+    "id": "SUS_dresser_womens",
+	"copy-from": "SUS_dresser_womens",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+      { "group": "group_cosmetics_bag",  "prob": 50 }
+      ]
+    }	
+	},
+    {
+    "type" : "item_group",
+    "id": "beauty",
+    "copy-from": "beauty",
+    "extend": {
+      "entries": [
+      { "group": "group_cosmetics_bag",  "prob": 50 },
+      { "group": "wet_wipes", "prob": 50 },
+	  { "item": "lipstick_red", "prob": 60, "charges": [ 25, 100 ] },
+	  { "item": "lipstick_black","prob": 25, "charges": [ 25, 100 ] },
+      { "item": "eyeshadowpallet","prob": 50, "charges": [ 25, 100 ] },
+      { "item": "eyelinerpencil","prob": 60, "charges": [ 25, 100 ] },
+      { "item": "mascara","prob": 50, "charges": [ 25, 100 ] },
+      { "item": "wpmascara","prob": 25, "charges": [ 25, 100 ] }
+      ]
+    }
+	}
+]

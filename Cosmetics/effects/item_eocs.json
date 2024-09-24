@@ -1,0 +1,252 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "apply_lipstick",
+    "effect": {
+      "run_eoc_selector": [ "apply_lipstick_black", "apply_lipstick_red" , "apply_eye_black" ],
+      "names": [ "Black", "Red", "eye black" ],
+      "keys": [ "1", "2", "3" ],
+      "title": "Which color?",
+	  "allow_cancel": true,
+	  "hide_failing": true,
+      "descriptions": [
+	  "Black, very goth",
+	  "A classic red",
+	  "A black stripe under your eyes to protect against sun glare"
+	  ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_lipstick_red",
+    "condition": { "u_has_item": "lipstick_red" },
+    "effect": [
+	{ "u_add_effect": "lipsred", "duration": 25200 },
+	{ "u_add_trait": "lipsred", "duration": 25200 }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_lipstick_black",
+    "condition": { "u_has_item": "lipstick_black" },
+    "effect": [
+	{ "u_add_effect": "lipsblack", "duration": 25200 },
+	{ "u_add_trait": "lipsblack", "duration": 25200 }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_facepaint",
+    "effect": {
+      "run_eoc_selector": [ "apply_clownpaint", "apply_eye_black" ],
+      "names": [ "Clown facepaint", "eye black" ],
+      "keys": [ "1", "2" ],
+      "title": "Which facepaint?",
+	  "allow_cancel": true,
+	  "hide_failing": true,
+      "descriptions": [
+	  "make 'em laugh.",
+	  "A black stripe under your eyes to protect against sun glare"
+	  ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_clownpaint",
+    "condition": { "u_has_item": "facepaint_kit" },
+    "effect": [
+	{ "u_add_effect": "clownpaint", "duration": 25200 },
+	{ "u_add_trait": "clownpaint", "duration": 25200 }
+  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eye_black",
+    "condition": { 
+	"or": [
+	{ "u_has_item": "lipstick_black" },
+	{ "u_has_item": "facepaint_kit" }
+	]
+	},
+    "effect": [
+	{ "u_add_effect": "eyeblackstrip", "duration": 25200 },
+	{ "u_add_trait": "eyeblackstrip", "duration": 25200 }
+  ]
+  }, 
+  {
+    "type": "effect_on_condition",
+    "id": "apply_mascara1",
+    "effect": [
+	{ "u_add_effect": "mascara1",  "duration": 43200 },
+	{ "u_add_trait": "mascara1", "duration": 43200 }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_mascara2",
+    "effect": [
+	{ "u_add_effect": "mascara2", "duration": 43200 },
+	{ "u_add_trait": "mascara1", "duration": 43200 }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eyeliner",
+    "effect": {
+		"run_eoc_selector": [ "apply_eyeliner1", "apply_eyeliner2" ],
+		"names": [ "Basic eyeliner", "Winged Eyeliner" ],
+		"keys": [ "1", "2" ],
+		"title": "Choose eyeliner style",
+		"allow_cancel": true,
+		"descriptions": [
+		"basic eyeliner description",
+		"winged eyeliner description"
+		]
+	}
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eyeliner1",
+    "effect": [
+	{ "u_add_effect": "eyeliner1", "duration": 25200 },
+	{ "u_add_trait": "eyeliner1", "duration": 25200 }
+	]
+  },
+    {
+    "type": "effect_on_condition",
+    "id": "apply_eyeliner2",
+    "effect": [
+	{ "u_add_effect": "eyeliner2", "duration": 25200 },
+	{ "u_add_trait": "eyeliner2", "duration": 25200 }
+	]
+	},
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eyeshadow",
+    "effect": {
+		"run_eoc_selector": [ "apply_eyeshadow1", "apply_eyeshadow2" ],
+		"names": [ "Smokey eyeshadow", "Cut crease eyeshadow" ],
+		"keys": [ "1", "2" ],
+		"title": "Choose eyeshadow style",
+		"allow_cancel": true,
+		"descriptions": [
+		"smokey description",
+		"cut crease description"
+		]
+	}
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eyeshadow1",
+    "effect": [
+	{ "u_add_effect": "eyesmokey", "duration": 25200 },
+	{ "u_add_trait": "eyesmokey", "duration": 25200 }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "apply_eyeshadow2",
+    "effect": [
+	{ "u_add_effect": "cutcrease", "duration": 25200 },
+	{ "u_add_trait": "cutcrease", "duration": 25200 }
+	]
+  },
+    {
+    "type": "effect_on_condition",
+    "id": "remove_cosmetics",
+    "effect": {
+		"run_eoc_selector": [ "remove_eyeliner", "remove_lipstick", "remove_mascara", "remove_eyeshadow", "remove_facepaint", "clean_face" ],
+		"names": [ "Remove eyeliner", "Remove lipstick", "Remove mascara", "Remove eyeshadow", "Remove facepaint",  "Remove all" ],
+		"keys": [ "1", "2", "3", "4", "5", "a" ],
+		"title": "Remove what?",
+		"allow_cancel": true,
+		"hide_failing": true
+	}
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "remove_eyeliner",
+    "condition": { "u_has_any_trait": [ "eyeliner1", "eyeliner2" ] },
+	"effect": [
+	{ "u_lose_trait": "eyeliner1" },
+	{ "u_lose_trait": "eyeliner2" },
+    { "u_lose_effect": "eyeliner1" },
+	{ "u_lose_effect": "eyeliner2" },
+	{ "u_message": "You wipe your eyeliner off." }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "remove_lipstick",
+    "condition": { "u_has_any_trait": [ "lipsblack", "lipsred" ] },
+	"effect": [
+	{ "u_lose_effect": "lipsblack" },
+	{ "u_lose_effect": "lipsred" },
+    { "u_lose_trait": "lipsblack" },
+	{ "u_lose_trait": "lipsred" },
+	{ "u_message": "You wipe your lipstick off." }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "remove_eyeshadow",
+    "condition": { "u_has_any_trait": [ "eyesmokey", "cutcrease" ] },
+	"effect": [
+	{ "u_lose_trait": "eyesmokey" },
+    { "u_lose_trait": "cutcrease" },
+    { "u_lose_effect": "eyesmokey" },
+    { "u_lose_effect": "cutcrease" },
+	{ "u_message": "You wipe your eyeshadow off." }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "remove_mascara",
+    "condition": { "u_has_any_trait": [ "mascara1", "mascara2" ] },
+	"effect": [
+    { "u_lose_effect": "mascara1" },
+    { "u_lose_effect": "mascara2" },
+    { "u_lose_trait": "mascara1" },
+    { "u_lose_trait": "mascara2" },
+	{ "u_message": "You wipe your mascara off." }
+	]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "remove_facepaint",
+    "condition": { "u_has_any_trait": [ "clownpaint", "eyeblackstrip" ] },
+	"effect": [
+    { "u_lose_effect": "clownpaint" },
+    { "u_lose_effect": "eyeblackstrip" },
+    { "u_lose_trait": "clownpaint" },
+    { "u_lose_trait": "eyeblackstrip" },
+	{ "u_message": "You wipe your facepaint off." }
+	]
+  },
+  {
+	"type": "effect_on_condition",
+    "id": "clean_face",
+	"effect": [
+	{ "u_lose_effect": "eyeliner1" },
+	{ "u_lose_effect": "eyeliner2" },
+	{ "u_lose_effect": "lipsblack" },
+	{ "u_lose_effect": "lipsred" },
+    { "u_lose_effect": "mascara1" },
+    { "u_lose_effect": "mascara2" },
+	{ "u_lose_effect": "eyesmokey" },
+    { "u_lose_effect": "cutcrease" },
+	{ "u_lose_effect": "clownpaint" },
+	{ "u_lose_trait": "eyeliner1" },
+	{ "u_lose_trait": "eyeliner2" },
+	{ "u_lose_trait": "lipsblack" },
+	{ "u_lose_trait": "lipsred" },
+    { "u_lose_trait": "mascara1" },
+    { "u_lose_trait": "mascara2" },
+	{ "u_lose_trait": "eyesmokey" },
+    { "u_lose_trait": "cutcrease" },
+	{ "u_lose_trait": "eyeblackstrip" },
+	{ "u_lose_trait": "clownpaint" },
+	{ "u_message": "You wipe all your cosmetics off." }
+	]
+ }
+]

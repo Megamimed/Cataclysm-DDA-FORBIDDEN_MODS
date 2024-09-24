@@ -1,0 +1,37 @@
+[
+  {
+	"type": "mod_tileset",
+	"compatibility": [
+    "Chibi_Ultica",
+    "MshockXottoplus",
+	"UNDEAD_PEOPLE_BASE"
+  ],
+  "tiles-new": [
+  {
+      "file": "Cosmetics.png",
+      "//": "range 1 to 15",
+      "sprite_width": 32,
+      "sprite_height": 32,
+      "sprite_offset_x": 0,
+      "sprite_offset_y": 0,
+      "tiles": [
+        { "id": "overlay_mutation_mascara1", "fg": 1 },
+        { "id": "overlay_mutation_mascara2", "fg": 2 },
+        { "id": "overlay_mutation_eyeliner1", "fg": 3 },
+        { "id": "overlay_mutation_eyeliner2", "fg": 4 },
+        { "id": "overlay_mutation_cutcrease", "fg": 5 },
+        { "id": "overlay_mutation_eyesmokey", "fg": 6 },
+        { "id": "overlay_mutation_clownpaint", "fg": 7 },
+        { "id": "overlay_mutation_eyeblackstrip", "fg": 8 },
+        { "id": "overlay_mutation_lipsblack", "fg": 9 },
+        { "id": "overlay_mutation_lipsred", "fg": 10 },
+        { "id": "eyelinerpencil", "fg": 11 },
+        { "id": "eyeshadowpallet", "fg": 12 },
+        { "id": "facepaint_kit", "fg": 13 },
+        { "id": "lipstick_red", "fg": 14 },
+        { "id": "mascara", "fg": 15 }
+      ]
+  }
+  ]
+}
+]

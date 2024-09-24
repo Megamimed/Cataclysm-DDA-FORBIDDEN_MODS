@@ -1,0 +1,43 @@
+[
+    {
+        "type" : "overlay_order",
+        "overlay_ordering" :
+        [
+        {
+            "id" : [
+			"lipsred",
+			"lipblack"
+			],
+            "order" : 1549
+        },
+		{
+            "id" : [
+			"eyesmokey",
+			"cutcrease"
+			],
+            "order" : 1601
+        },
+		{
+            "id" : [
+			"mascara1",
+			"mascara2"
+			],
+            "order" : 1602
+        },	
+		{
+            "id" : [
+			"clownpaint",
+			"eyeblackstrip"
+			],
+            "order" : 1563
+        },
+		{
+            "id" : [
+			"eyeliner1",
+			"eyeliner2"
+			],
+            "order" : 1610
+        }	
+        ]
+    }
+]

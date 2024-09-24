@@ -1,0 +1,71 @@
+[
+  {
+    "type": "item_group",
+    "id": "cosmeticskit",
+	"subtype": "collection",
+    "entries": [
+      { "item": "lipstick_red" },
+	  { "item": "lipstick_black" },
+      { "item": "eyeshadowpallet" },
+      { "item": "eyelinerpencil" },
+      { "item": "mascara" },
+      { "item": "wpmascara" },
+	  { "item": "makeup_remover_wipe" },
+      { "item": "facepaint_kit" }	  
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "beautician",
+    "name": "Beautician",
+    "description": "Makeup testing",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "jeans" },
+          { "item": "longshirt" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "item": "mbag" },
+          { "item": "pockknife" },
+          { "item": "water_clean" },
+          { "item": "wristwatch" },
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "group": "charged_matches" },
+		  { "group": "cosmeticskit" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+{
+    "type": "profession",
+    "id": "clown",
+    "name": { "male": "Clown", "female": "Clowness" },
+    "description": "All you ever wanted was to make people laugh.  Dropping out of school and performing at kids' parties was a dream come true until the world ended.  There are precious few balloon animals in your future now.",
+    "points": -1,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "clown_wig" },
+          { "item": "clown_suit" },
+          { "item": "clown_nose" },
+          { "item": "socks" },
+          { "item": "clownshoes" },
+          { "item": "airhorn" },
+		  { "item": "facepaint_kit" },	
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "item": "balloon", "count": 20 }
+        ]
+      },
+      "male": { "entries": [ { "item": "briefs" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    },
+	"traits": [ "clownpaint" ],
+    "missions": [ "MISSION_CLOWN" ]
+  }
+]

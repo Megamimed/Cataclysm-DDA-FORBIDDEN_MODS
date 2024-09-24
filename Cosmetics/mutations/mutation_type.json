@@ -1,0 +1,22 @@
+[
+  {
+    "type": "mutation_type",
+    "id": "LIPSTICK"
+  },
+  {
+    "type": "mutation_type",
+    "id": "EYELINER"
+  },
+  {
+    "type": "mutation_type",
+    "id": "EYESHADOW"
+  },
+  {
+    "type": "mutation_type",
+    "id": "EYELASH"
+  },
+  {
+    "type": "mutation_type",
+    "id": "FACEPAINT"
+  }
+]
