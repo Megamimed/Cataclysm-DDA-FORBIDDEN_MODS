@@ -1,0 +1,15 @@
+[
+  {
+    "type": "AMMO",
+    "id": "cosmetic_pigment",
+    "name": { "str_sp": "applications" },
+    "symbol": "!",
+    "description": "remaining applications",
+    "volume": "0 ml",
+    "weight": "0 mg",
+    "color": "dark_gray",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "ammo_type": "cosmetic_pigment",
+	"count": 100
+  }
+]

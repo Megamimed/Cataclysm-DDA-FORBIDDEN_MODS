@@ -1,0 +1,11 @@
+[
+  {
+	"type": "MOD_INFO", 
+	"id": "warpaint", 
+	"name": "Cosmetics", 
+	"authors": [ "Megamimed" ], 
+	"description": "Apocolypse be damned I'm not leaving home without my ruby woo!", 
+	"category": "items", 
+	"dependencies": [ "dda" ]
+  }
+]

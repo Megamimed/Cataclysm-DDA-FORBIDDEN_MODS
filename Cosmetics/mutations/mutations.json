@@ -1,0 +1,143 @@
+[ 
+  {
+    "type": "mutation",
+    "id": "lipstick",
+    "name": { "str": "Lipstick: none" },
+    "description": "You are not wearing lipstick.",
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": true,
+    "player_display": false,
+    "vanity": true,
+	"types": [ "LIPSTICK" ]
+  },
+  {
+	"type": "mutation",
+	"copy-from": "lipstick",
+    "id": "lipsblack",
+    "name": { "str": "Lipstick: black" },
+    "description": "You are wearing black lipstick.",
+    "player_display": true
+  },
+  {
+	"type": "mutation",
+	"copy-from": "lipstick",
+    "id": "lipsred",
+    "name": { "str": "Lipstick: red" },
+    "description": "You are wearing red lipstick.",
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "eyeliner",
+    "name": { "str": "Eyeliner: none" },
+    "description": "You are not wearing eyeliner.",
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": true,
+    "player_display": false,
+    "vanity": true,
+    "types": [ "EYELINER" ]
+  },
+  {
+	"type": "mutation",
+	"copy-from": "eyeliner",
+    "id": "eyeliner2",
+    "name": { "str": "Eyeliner: winged" },
+    "description": "You are wearing wingtip style eyeliner.",
+    "player_display": true
+  },
+   {
+	"type": "mutation",
+	"copy-from": "eyeliner",
+    "id": "eyeliner1",
+    "name": { "str": "Eyeliner: basic" },
+    "description": "You are wearing eyeliner.",
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "eyeshadow",
+    "name": { "str": "Eyeshadow: none" },
+    "description": "You are not wearing eyeshadow.",
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": true,
+    "player_display": false,
+    "vanity": true,
+    "types": [ "EYESHADOW" ]
+  },
+  {
+	"type": "mutation",
+	"copy-from": "eyeshadow",
+    "id": "eyesmokey",
+    "name": { "str": "Eyeshadow: smokey eye" },
+    "description": "You are wearing black, smokey eyeshadow.",
+    "player_display": true
+  },
+  {
+	"type": "mutation",
+	"copy-from": "eyeshadow",
+    "id": "cutcrease",
+    "name": { "str": "Eyeshadow: cut crease" },
+    "description": "You are wearing eyeshadow across the your eyelid.",
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "mascara",
+    "name": { "str": "Mascara: none" },
+    "description": "You are not wearing mascara.",
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": true,
+    "player_display": false,
+    "vanity": true,
+    "types": [ "EYELASH" ]
+  },
+  {
+	"type": "mutation",
+	"copy-from": "mascara",
+    "id": "mascara2",
+    "name": { "str": "Mascara: waterproof" },
+    "description": "You are wearing waterproof mascara.",
+    "player_display": true
+  },
+  {
+	"type": "mutation",
+	"copy-from": "mascara",
+    "id": "mascara1",
+    "name": { "str": "Mascara: basic" },
+    "description": "You are wearing mascara.",
+    "player_display": true
+  },
+   {
+    "type": "mutation",
+    "id": "facepaint",
+    "name": { "str": "Facepaint: none" },
+    "description": "You are not wearing facepaint.",
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": true,
+    "player_display": false,
+    "vanity": true,
+    "types": [ "FACEPAINT" ]
+  },
+  {
+    "type": "mutation",
+	"copy-from": "facepaint",
+    "id": "eyeblackstrip",
+    "name": { "str": "Facepaint: Eye black" },
+    "description": "You are wearing eye black.",
+	"active_flags": [ "GLARE_RESIST" ],
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+	"copy-from": "facepaint",
+    "id": "clownpaint",
+    "name": { "str": "Facepaint: clown" },
+    "description": "You are a clown.",
+    "player_display": true
+  }
+ ]

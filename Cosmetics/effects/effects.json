@@ -1,0 +1,92 @@
+[
+  {
+    "type": "effect_type",
+    "id": "lipsred",
+    "name": [ "Red lipstick" ],
+	"apply_message": "You apply the red lipstick",
+	"desc": [ "You are wearing red lipstick." ],
+	"bp": "MOUTH",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "lipsblack",
+    "name": [ "Black lipstick" ],
+	"apply_message": "You apply the black lipstick",
+	"desc": [ "You are wearing black lipstick." ],
+	"bp": "MOUTH",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "eyeliner1",
+    "name": [ "Basic eyeliner" ],
+    "apply_message": "You apply the eyeliner, nothing too fancy.",
+	"desc": [ "You are wearing eyeliner." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "eyeliner2",
+	"name": [ "Winged eyeliner" ],
+    "apply_message": "You apply the eyeliner, giving yourself some sharp wingtips.",
+	"desc": [ "You are wearing wingtip style eyeliner." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+	"id": "eyesmokey",
+    "name": [ "Smokey eyeshadow" ],
+    "apply_message": "You apply the eyeshadow.",
+	"desc": [ "You are wearing black, smokey eyeshadow." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+	"type": "effect_type",
+    "id": "cutcrease",
+    "name": [ "Cut crease eyeshadow" ],
+    "apply_message": "You apply the eyeshadow.",
+    "desc": [ "You are wearing eyeshadow across the your eyelid." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "eyeblackstrip",
+    "name": [ "Eye black" ],
+    "apply_message": "You paint a black line across the top of your cheeks to keep the glare out of your eyes.",
+	"desc": [ "You are wearing eye black." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "mascara1",
+    "name": [ "Mascara" ],
+    "apply_message": "You apply the mascara.",
+	"desc": [ "You are wearing mascara." ],
+	"bp": "EYES",
+	"max_duration": 43200
+  },
+  {
+    "type": "effect_type",
+    "id": "clownpaint",
+    "name": [ "clown paint" ],
+    "apply_message": "You apply face paint.",
+	"desc": [ "You are a clown." ],
+	"bp": "EYES",
+	"max_duration": 25200
+  },
+  {
+    "type": "effect_type",
+    "id": "mascara2",
+    "name": [ "Mascara" ],
+    "apply_message": "You apply the waterproof mascara.",
+	"desc": [ "You are wearing waterproof mascara." ],
+	"bp": "EYES",
+	"max_duration": 43200
+  }
+]
